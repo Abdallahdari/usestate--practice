@@ -57,14 +57,13 @@ function Forms({ onAdd }) {
           </form>
         </div>
       </div>
-      ;
     </>
   );
 }
 function Packing({ items, onDelete }) {
   return (
     <>
-      <div className="container mx-auto">
+      <div className="container mt-20 mx-auto">
         <div className="  flex justify-center  ">
           <div className="border w-[400px] px-4 py-3">
             {items.map((item, index) => (
